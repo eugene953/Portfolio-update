@@ -35,13 +35,13 @@ const Navbar = () => {
           </a>
         </div>
 
-        <button
+        <a href="mailto:tim@gmail.com"
           className="bg-gradient-to-r from-green-400
            to-blue-500 text-white hidden md:inline transform 
            transition-transform hover:scale-105 px-4 py-2 md:ml-8 rounded-full"
         >
           Connect Me
-        </button>
+        </a>
       </div>
 
       {/* Mobile Menu Icon */}
