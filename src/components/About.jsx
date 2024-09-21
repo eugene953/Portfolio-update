@@ -12,7 +12,7 @@ const About = () => {
         <img src={about} alt=""
          className="w-72 h-80 rounded object-cover mb-8 md:mb-0" />
      <div className="flex-1"> 
-       <p className="text-left mt-6">
+       <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
          I am a passionate MERN Stack Developer with hands-on experience in building full-stack 
               web applications. I specialize in crafting responsive, scalable solutions using MySQL, MongoDB, 
               Express, React, Tailwind CSS, and Node.js. My expertise lies in creating dynamic front-end interfaces 
