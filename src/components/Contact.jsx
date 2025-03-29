@@ -11,7 +11,7 @@ const Contact = () => {
       e.preventDefault();
   
       emailjs
-        .sendForm('service_0axn137', 
+        .sendForm('service_n4qopek', 
             'template_bobjvf4',
              form.current, {
           publicKey: 'F-f5VtEVEwPuwj7Wh',
@@ -19,7 +19,7 @@ const Contact = () => {
         .then(
           (result) => {
             console.log(result.text);
-            setDone(true)
+            setDone(true);
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -37,7 +37,7 @@ const Contact = () => {
      <h3 className="text-3xl font-bold text-transparent bg-clip-text
      bg-gradient-to-r from-green-400 to-blue-400 mb-4
      ">Let's Talk</h3>
-     <p className="">I'm open to discussing web projects or opportunities.</p>
+     <p className="">I'm open to discussing web/mobile projects or opportunities.</p>
 
 <div className="mb-4 mt-8">
   <FaEnvelope className="inline-block text-green-400 mr-2"></FaEnvelope>
@@ -53,7 +53,7 @@ nfouaeugene545@gmail.com
   
   <div className="mb-4 ">
 <FaMapMarkedAlt className="inline-block text-green-400 mr-2"></FaMapMarkedAlt>
-<span>Street, City, Province, Country</span>
+<span>Molyko Buea</span>
 </div>
 </div> 
 <div className="flex-1 w-full">

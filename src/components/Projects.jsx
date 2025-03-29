@@ -1,4 +1,5 @@
-import FoodOrder from "../assets/FoodOrder.png"
+// import FoodOrder from "../assets/FoodOrder.png"
+import kako from "../assets/kako.png"
 import Shoply from "../assets/Shoply.png"
 import DataWeb from "../assets/DataWeb.png"
 import portfolio from "../assets/portfolio.png"
@@ -6,9 +7,9 @@ import portfolio from "../assets/portfolio.png"
 const projects = [
     {
        id:1,
-       name:"Food Order Web App",
+       name:"Online Auction Web App",
        technologies: "MERN Stack",
-       image:FoodOrder ,
+       image:kako ,
        github:"https://github.com/eugene953",
     },
     {

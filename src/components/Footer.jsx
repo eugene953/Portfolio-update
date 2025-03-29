@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaMedium, FaTwitter } from "react-ico
 
 const Footer = () => {
   return ( 
-      <footer className='border-b border-neutral-900 pb-4 lg:mb-35 py-20' id='footer'>
+      <footer className='border-b  pb-4 lg:mb-35 py-20' id='footer'>
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
     <div className="flex flex-col md:flex-row items-center md:space-x-12">
       <div className="flex-1 mb-4 md:mb-0 ">
@@ -29,11 +29,13 @@ Full-Stack Developer spacialising in web and mobile app developement
 </div>
 </div>
 
+
+
 <div className=" pt-4 flex
 flex-col md:flex-col lg:flex-row justify-between items-center
 ">
 <p className="text-gray-400">
-    &Copy; {new Date().getFullYear()} Eugene. All rights reserved
+© {new Date().getFullYear()} Eugene. All rights reserved
 </p>
     
     <div className="flex space-x-4 my-4 md:my-0">
