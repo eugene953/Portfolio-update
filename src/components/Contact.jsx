@@ -28,9 +28,7 @@ const Contact = () => {
     };
 
   return (
-    <div className=' flex border-b border-neutral-900 pb-4 lg:mb-35 py-20
-           top-180 left-0 z-[-2] h-full w-full bg-neutral-950 
-        bg-[radial -gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]' id='contact'>
+    <div className=' flex border-b border-neutral-900 pb-4 lg:mb-35 py-20' id='contact'>
     <div className=" mx-auto px-8 md:px-16 lg:px-24">
      <h2 className='text-4xl font-bold text-center
      mb-16'>Contact Me</h2>
