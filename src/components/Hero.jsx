@@ -1,10 +1,11 @@
 
-import pic from '../assets/pic.png'
+import My from '../assets/My.png'
 import resume from '../assets/Resume-1.pdf'
 
 const Hero = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+    <div className='border-b border-neutral-900
+     pb-4 lg:mb-35 py-20' id='home'>
       <div className="flex flex-wrap items-center justify-center">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start 
@@ -25,9 +26,9 @@ const Hero = () => {
             </p>
 
             <div className="flex space-x-4 mt-4 mb-6 ">
-              <a href="mailto:tim@gmail.com" className="bg-gradient-to-r from-green-400 to-blue-500 text-white
+              <a href="mailto:nfouaeugene@gmail.com" className="bg-gradient-to-r from-green-400 to-blue-500 text-white
                md:inline transform transition-transform hover:scale-105 px-6 py-2 
-              rounded-md " id='contact'>Contact Me</a>
+              rounded-md ">Contact Me</a>
               <a href={resume} download="Resume-1" className="bg-gradient-to-r from-pink-400 to-yellow-500 text-white
                md:inline transform transition-transform hover:scale-105 px-6 py-2 
               rounded-md">Resume</a>
@@ -37,7 +38,7 @@ const Hero = () => {
 
         <div className="w-full lg:w-1/2 lg:p-8 sm:mt-4 md:mt-2">
           <div className="flex justify-center lg:justify-end">
-            <img src={pic} alt='Profile' className='w-80 h-100 rounded object-cover mb-2 md:mb-0'/>
+            <img src={My} alt='Profile' className='w-80 h-80 rounded object-cover md:mb-0'/>
           </div>
         </div>
       </div>

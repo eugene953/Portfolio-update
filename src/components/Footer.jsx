@@ -2,14 +2,17 @@ import { FaFacebook, FaGithub, FaLinkedin, FaMedium, FaTwitter } from "react-ico
 
 const Footer = () => {
   return ( 
-      <footer className='border-b  pb-4 lg:mb-35 py-20' id='footer'>
-      <div className="container mx-auto px-8 md:px-16 lg:px-24">
+      <footer className='border-b  pb-4 lg:mb-35 py-20
+             top-180 left-0 z-[-2] h-full w-full bg-neutral-950 
+        bg-[radial -gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
+      ' id='footer'>
+      <div className=" mx-auto px-8 md:px-16 lg:px-24">
     <div className="flex flex-col md:flex-row items-center md:space-x-12">
       <div className="flex-1 mb-4 md:mb-0 ">
 <h2 className='text-2xl font-bold
      mb-2 text-left'>Eugene</h2>
     <p className="text-gray-400 text-left">
-Full-Stack Developer spacialising in web and mobile app developement
+Full-Stack Developer spacialising in web and mobile app development
     </p>
 </div>
 <div className="flex-1 w-full">

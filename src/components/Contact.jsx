@@ -28,16 +28,18 @@ const Contact = () => {
     };
 
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35 py-20' id='contact'>
-    <div className="container mx-auto px-8 md:px-16 lg:px-24">
+    <div className=' flex border-b border-neutral-900 pb-4 lg:mb-35 py-20
+           top-180 left-0 z-[-2] h-full w-full bg-neutral-950 
+        bg-[radial -gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]' id='contact'>
+    <div className=" mx-auto px-8 md:px-16 lg:px-24">
      <h2 className='text-4xl font-bold text-center
-     mb-12'>Contact Me</h2>
-     <div className="flex flex-col md:flex-row items-center md:space-x-12">
-      <div className="flex-1 text-left ">
+     mb-16'>Contact Me</h2>
+     <div className="flex flex-col md:flex-row items-center md:space-x-16">
+      <div className="flex-1 text-left justify-items-start ">
      <h3 className="text-3xl font-bold text-transparent bg-clip-text
      bg-gradient-to-r from-green-400 to-blue-400 mb-4
-     ">Let's Talk</h3>
-     <p className="">I'm open to discussing web/mobile projects or opportunities.</p>
+     ">Let&apos;s Talk</h3>
+     <p className="">I&apos;m open to discussing web/mobile projects or opportunities.</p>
 
 <div className="mb-4 mt-8">
   <FaEnvelope className="inline-block text-green-400 mr-2"></FaEnvelope>
@@ -59,10 +61,10 @@ nfouaeugene545@gmail.com
 <div className="flex-1 w-full">
 
    <form ref={form} onSubmit={sendEmail} className="space-y-4">
-        <div className="">
+        <div className="w-full">
          <label htmlFor="name" className="block mb-2 text-left">Your Name</label>
           <input type="text"
-        className="w-full p-2 rounded bg-gray-800 border
+        className="w-full p-3 rounded bg-gray-800 border
         border-gray-600 focus:outline-none focus:border-green-400" name="user_name"
         placeholder="Enter Your name"/>
         </div>

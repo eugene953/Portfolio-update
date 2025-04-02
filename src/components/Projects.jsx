@@ -41,7 +41,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35 py-20' id='project'>
+    <div className='border-b border-neutral-900 pb-4 lg:mb-35 py-20
+           mt-[900] left-0 z-[-2] h-full w-full bg-neutral-950 
+        bg-[radial -gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
+    ' id='project'>
     <div className=" mx-auto px-8 md:px-16 lg:px-24">
      <h2 className='text-4xl font-bold text-center
      mb-12'> My Projects</h2>
@@ -53,7 +56,7 @@ const Projects = () => {
            transform transition-transform duration-300 hover:scale-105
     ">
        <img src={project.image} alt={project.name} 
-       className="rounded-lg mb-4 w-full h-48 object-cover" />
+       className="rounded-lg mb-4 w-full h-[300px] md:h-[350px] lg:h-[400px] " />
        <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
         <p className="text-gray-400 mb-4">
             {projects.technologies}</p>
